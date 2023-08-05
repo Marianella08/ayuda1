@@ -76,6 +76,12 @@ a:hover{
     background-color: #232323;
     border-radius: 10px;
     overflow: hidden;
+    color: #ffff;
+}
+
+.card .back .texto{
+    position: absolute;
+    padding:10px 0 0 10px ;
 }
 
 .card:hover .number{
