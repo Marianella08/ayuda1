@@ -54,7 +54,6 @@ a:hover{
     width: 19pc;
     height: 19em;
     color: white;
-    background-color: #232323;
     transform: perspective(600px) rotateY(0deg);
 }
 
@@ -82,6 +81,12 @@ a:hover{
 .card .back .texto{
     position: absolute;
     padding:10px 0 0 10px ;
+    text-align: start;
+    width: 50%;
+}
+
+.card .back img{
+    height: 936px;    
 }
 
 .card:hover .number{

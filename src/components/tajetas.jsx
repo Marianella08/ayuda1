@@ -43,14 +43,14 @@ function Tarjetas (props) {
             </div>
             <div className="face back">
                 <div className="texto">
-                <p>Height:</p>
-                <p>{props.altura}</p>
-                <p>favorite food:</p>
-                <p>{props.food}</p>
-                <p>Nickname:</p>
-                <p>{props.apodo}</p>
-                <p>Birthday:</p>
-                <p>{props.cumple}</p>
+                    <p>Height:</p>
+                    <p>{props.altura}</p>
+                    <p>favorite food:</p>
+                    <p>{props.food}</p>
+                    <p>Nickname:</p>
+                    <p>{props.apodo}</p>
+                    <p>Birthday:</p>
+                    <p>{props.cumple}</p>
                 </div>
                 <img src={"src/imgs/haikyuu/" + props.imagen + ".png"} alt={props.imagen}  />
             </div>
