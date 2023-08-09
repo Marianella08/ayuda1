@@ -1,3 +1,4 @@
+/*faltan los apodos*/
 import '../src/styles/tarjetas.css'
 import '../src/App.css'
 import React from "react";
